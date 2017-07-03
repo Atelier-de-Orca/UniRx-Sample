@@ -6,11 +6,11 @@ It provides simple samples that you can use to study UniRx and bring it to your 
 ## index
 1. [timer(text & bar)](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/01.%20Timer)
 1. [Object Click](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/02.%20ObjectClick)
+1. [Drag Object](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/03.%20DragObject)
 
 ## TODO
-- [ ] Add Drag sample
+- [X] Add Drag sample
 - [ ] Add Double click sample
-- [ ] Add Scouter Sample
 - [ ] Add Sample Game
 
 ## License

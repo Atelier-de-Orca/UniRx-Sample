@@ -16,7 +16,6 @@ public class CameraRayCaster : MonoBehaviour {
     private void Start() {
         Observable.EveryUpdate()
             .Where(_ => Input.GetMouseButtonDown(0))
-            .Select(_ => true)
             .Subscribe(_ => {
                 RaycastHit hit;
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
