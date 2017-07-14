@@ -1,4 +1,4 @@
-# Object Click
+# Click Object
 This sample detect `GameObject` with `RayCast` and return the detected Object through the stream. If you have subscribed to `onSelectObjectStream`, you can get the detected `GameObject` through the stream whenever an Object is detected.
 
 ## Result
@@ -8,7 +8,6 @@ This sample detect `GameObject` with `RayCast` and return the detected Object th
 ```csharp
 Observable.EveryUpdate()
         .Where(_ => Input.GetMouseButtonDown(0))
-        .Select(_ => true)
         .Subscribe(_ => {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
