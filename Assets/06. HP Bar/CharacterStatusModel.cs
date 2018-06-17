@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UniRx;
 
-public class CharacterStatusModel {
-    public ReactiveProperty<float> Hp;
-    public ReactiveProperty<float> MaxHp;
-    public ReactiveProperty<float> Mp;
-    public ReactiveProperty<float> MaxMp;
+[CreateAssetMenu(fileName = "Status Model", menuName = "Character/Status", order = 1)]
+public class CharacterStatusModel : ScriptableObject {
+    
+    public FloatReactiveProperty Hp;
+    public FloatReactiveProperty MaxHp;
+    public FloatReactiveProperty Mp;
+    public FloatReactiveProperty MaxMp;
 
-    public ReactiveProperty<float> ConsumHpRate;
+    public FloatReactiveProperty ConsumHpRate;
 }

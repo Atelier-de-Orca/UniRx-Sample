@@ -13,23 +13,36 @@ public class BarAndTextView : MonoBehaviour {
     public Animator Animator;
     public ParticleSystem ParticleSystem;
 
-    public float MaxTime;
+    private float _timeRate = 1.0f;
+    public float TimeRate {
+        get { return _timeRate; }
+        set { _timeRate = Mathf.Clamp(value, 0, Mathf.Infinity); }
+    }
 
     // Private Member For animting
+    private float _maxValue = 0.0f;
     private float _targetPoint = 0.0f;
     private float _currentPoint = 0.0f;
     private float _startPoint = 0.0f;
     private float _time = 0.0f;
+
+
     private Coroutine _myRoutine;
 
+    public void UpdateViewInfo(float maxValue) {
+        _maxValue = maxValue;
+        Slider.maxValue = _maxValue;
+    }
+
+
     // Update Function Call by Presenter
-    public void UpdateView(float hp) {
+    public void UpdateView(float value) {
         if (Text != null) {
-            Text.text = hp.ToString(CultureInfo.CurrentCulture);
+            Text.text = value.ToString(CultureInfo.CurrentCulture);
         }
 
         _startPoint = _currentPoint;
-        _targetPoint = hp;
+        _targetPoint = value;
         _time = 0.0f;
 
         if (_myRoutine == null) {
@@ -39,11 +52,14 @@ public class BarAndTextView : MonoBehaviour {
 
     public IEnumerator BarChasingCoroutine() {
 
-        while (_currentPoint >= _targetPoint) {
-            _currentPoint = Mathf.Lerp(_startPoint, _targetPoint, _time);
+        do {
+            yield return null;
+
+            _currentPoint = Mathf.SmoothStep(_startPoint, _targetPoint, _time/TimeRate);
             Slider.value = _currentPoint;
             _time += Time.deltaTime;
-        }
+
+        } while (!Mathf.Approximately(_currentPoint, _targetPoint));
 
         _myRoutine = null;
         yield return null;

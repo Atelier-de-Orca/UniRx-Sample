@@ -11,15 +11,19 @@ public class StatusPresenter : MonoBehaviour {
     public CharacterStatusModel StatusModel;
 
     // Use this for initialization
-    void Start() {
-        StatusModel.Hp
-            .Subscribe(hp => {
-                HpView.UpdateView(hp / StatusModel.MaxHp.Value);
+    private void Start() {
+
+        // Setup and Update Max Value
+        HpView.UpdateViewInfo(StatusModel.MaxHp.Value);
+        StatusModel.MaxHp
+            .Subscribe(max => {
+                HpView.UpdateViewInfo(max);
             });
 
-        StatusModel.Mp
-            .Subscribe(mp => {
-                MpView.UpdateView(mp / StatusModel.MaxMp.Value);
+        // Update Hp
+        StatusModel.Hp
+            .Subscribe(hp => {
+                HpView.UpdateView(hp);
             });
     }
 }
