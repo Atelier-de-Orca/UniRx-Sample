@@ -9,7 +9,7 @@ It provides simple samples that you can use to study UniRx and bring it to your 
 3. [Drag Object](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/03.%20DragObject)
 4. [Double Click](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/04.%20DoubleClick)
 5. [WWW](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/05.%20WWW)
-6. [HP Bar](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/06.%20HP Bar)
+6. [HP Bar](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/06.%20HP%20Bar)
 
 ## License
 
