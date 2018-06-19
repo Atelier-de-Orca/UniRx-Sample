@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UniRx;
@@ -23,7 +24,10 @@ public class StatusPresenter : MonoBehaviour {
         // Update Hp
         StatusModel.Hp
             .Subscribe(hp => {
-                HpView.UpdateView(hp);
+                //
             });
+
+        Observable.EveryUpdate()
+            .Subscribe(_ => { StatusModel.Hp.Value -= StatusModel.ConsumHpRate.Value * Time.deltaTime; });
     }
 }

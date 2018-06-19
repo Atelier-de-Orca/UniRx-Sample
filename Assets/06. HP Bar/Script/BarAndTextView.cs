@@ -5,6 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UniRx;
 
+public enum smoothType {
+
+}
+
 public class BarAndTextView : MonoBehaviour {
 
     // Member for View and Animating HP Bar
@@ -21,7 +25,7 @@ public class BarAndTextView : MonoBehaviour {
 
     // Private Member For animting
     private float _maxValue = 0.0f;
-    private float _targetPoint = 0.0f;
+    private FloatReactiveProperty _targetPoint;
     private float _currentPoint = 0.0f;
     private float _startPoint = 0.0f;
     private float _time = 0.0f;
@@ -34,34 +38,24 @@ public class BarAndTextView : MonoBehaviour {
         Slider.maxValue = _maxValue;
     }
 
-
     // Update Function Call by Presenter
-    public void UpdateView(float value) {
-        if (Text != null) {
-            Text.text = value.ToString(CultureInfo.CurrentCulture);
-        }
-
-        _startPoint = _currentPoint;
-        _targetPoint = value;
-        _time = 0.0f;
-
-        if (_myRoutine == null) {
-            _myRoutine = StartCoroutine(BarChasingCoroutine());
-        }
+    public void UpdateTargetPoint(float value) {
+        _targetPoint.Value = value;
     }
 
-    public IEnumerator BarChasingCoroutine() {
+    private void Start() {
 
-        do {
-            yield return null;
+        // Hp up!
+        _targetPoint.AsObservable()
+            .Where(target => !Mathf.Approximately(target, _currentPoint))
+            .Subscribe(targetPoint => {
+                _time = Time.deltaTime;
+                _currentPoint = Mathf.SmoothStep(_startPoint, targetPoint, 0.4f);
+            });
 
-            _currentPoint = Mathf.SmoothStep(_startPoint, _targetPoint, _time/TimeRate);
-            Slider.value = _currentPoint;
-            _time += Time.deltaTime;
-
-        } while (!Mathf.Approximately(_currentPoint, _targetPoint));
-
-        _myRoutine = null;
-        yield return null;
+        // cunsom Hp!
     }
+
+
+
 }

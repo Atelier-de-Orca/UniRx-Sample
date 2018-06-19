@@ -12,4 +12,6 @@ public class CharacterStatusModel : ScriptableObject {
     public FloatReactiveProperty MaxMp;
 
     public FloatReactiveProperty ConsumHpRate;
+    
+
 }
