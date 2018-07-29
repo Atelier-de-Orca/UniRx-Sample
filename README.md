@@ -13,6 +13,7 @@ It provides simple samples that you can use to study UniRx and bring it to your 
 
 ## TO DO
 - [ ] Wheel
+- [ ] Virtual Joystick
 - [ ] Animation Event
 
 
