@@ -1,0 +1,420 @@
+Unity Editor version:    2022.3.22f1 (887be4894c44)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.1 (Build 24B83)
+Darwin version:          24.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+
+The following diagnostic switches are modified from their default values:
+	EnableDomainReloadTimings: True (default False)
+
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/orca/Documents/R3-Unity-Sample
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57530
+Successfully changed project path to: /Users/orca/Documents/R3-Unity-Sample
+/Users/orca/Documents/R3-Unity-Sample
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8244918336] Host "[IP] 192.168.50.51 [Port] 0 [Flags] 2 [Guid] 2626967292 [EditorId] 2626967292 [Version] 1048832 [Id] OSXEditor(0,oleukaui-MacBookAir.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8244918336] Host "[IP] 192.168.50.51 [Port] 0 [Flags] 2 [Guid] 2626967292 [EditorId] 2626967292 [Version] 1048832 [Id] OSXEditor(0,oleukaui-MacBookAir.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/orca/Documents/R3-Unity-Sample/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56157
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004871 seconds.
+- Loaded All Assemblies, in  0.236 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 80 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Diagnostic switches are active and may impact performance or degrade your user experience. Switches can be configured through the Diagnostics section in the Preferences window.
+	EnableDomainReloadTimings: True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.317 seconds
+Domain Reload Profiling: 553ms
+ Thread #8244918336
+	FinalizeReload: 317ms
+		SetupLoadedEditorAssemblies: 280ms
+			InitializePlatformSupportModulesInManaged: 191ms
+				Android.TargetScanWorker.ADB.Query: 83ms
+					mscorlib.dll!Mono.Globalization.Unicode::SimpleCollator..cctor(): 2ms
+					GC.Collect: 1ms in 5 occurrences
+				UnityEditor.Android.Extensions.dll!UnityEditor.Android::AndroidBuildWindowExtension..cctor(): 16ms
+					EditorResources.Load: 10ms in 2 occurrences
+						Loading.ReadObject: 10ms in 2 occurrences
+							Loading.ReadObjectThreaded: 9ms in 2 occurrences
+								ReadObjectFromSerializedFile(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Resources/unity editor resources, 0, 638524, AssetBundle): 9ms
+							Loading.LoadFileHeaders(0, Library/unity editor resources): 1ms
+					UnityEditor.CoreModule.dll!UnityEditor::EditorGUIUtility..cctor(): 3ms
+				UnityEditor.Android.Extensions.dll!UnityEditor.Android::AndroidSDKTools..cctor(): 11ms
+				UnityEditor.iOS.Extensions.dll!UnityEditor.iOS::TargetExtension..cctor(): 1ms
+				UnityEditor.CoreModule.dll!UnityEditor.Utils::Paths..cctor(): 1ms
+				File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll, 0, 4): 1ms in 116 occurrences
+			ProcessInitializeOnLoadAttributes: 60ms
+				InitializeOnLoad UXMLEditorFactories: 31ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.UIElements.UXMLEditorFactories, UnityEditor.UIElementsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 31ms
+						UnityEditor.UIElementsModule.dll!UnityEditor.UIElements::UXMLEditorFactories..cctor(): 31ms
+							GC.Collect: 1ms in 3 occurrences
+				InitializeOnLoad CustomIndexers: 9ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.Search.CustomIndexers, UnityEditor.QuickSearchModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 9ms
+						UnityEditor.QuickSearchModule.dll!UnityEditor.Search::CustomIndexers..cctor(): 9ms
+							UnityEditor.QuickSearchModule.dll!UnityEditor.Search::SearchSettings..cctor(): 5ms
+								UnityEditor.QuickSearchModule.dll!UnityEditor.Search::Utils..cctor(): 1ms
+									GC.Collect: 1ms
+				InitializeOnLoad PurchasingService: 3ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.Connect.PurchasingService, UnityEditor.UnityConnectModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 3ms
+						UnityEditor.UnityConnectModule.dll!UnityEditor.Connect::PurchasingService..cctor(): 3ms
+				InitializeOnLoad MixerEffectDefinitionReloader: 2ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.Audio.MixerEffectDefinitionReloader, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 2ms
+						UnityEditor.CoreModule.dll!UnityEditor.Audio::MixerEffectDefinitionReloader..cctor(): 2ms
+				InitializeOnLoad AssetStoreContext: 2ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.AssetStoreContext, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 2ms
+						UnityEditor.CoreModule.dll!UnityEditor::AssetStoreContext..cctor(): 2ms
+				InitializeOnLoad RetainedMode: 1ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.RetainedMode, UnityEditor.UIElementsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 1ms
+						UnityEngine.UIElementsModule.dll!UnityEngine.UIElements::UIElementsUtility..cctor(): 1ms
+				InitializeOnLoad BuildService: 1ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.Connect.BuildService, UnityEditor.UnityConnectModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 1ms
+						UnityEditor.UnityConnectModule.dll!UnityEditor.Connect::BuildService..cctor(): 1ms
+				InitializeOnLoad NativeFormatImporterUtility: 1ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.NativeFormatImporterUtility, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 1ms
+						UnityEditor.CoreModule.dll!UnityEditor::NativeFormatImporterUtility..cctor(): 1ms
+				InitializeOnLoad EditorGameServicesAnalytics: 1ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.Connect.EditorGameServicesAnalytics, UnityEditor.UnityConnectModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 1ms
+						UnityEditor.UnityConnectModule.dll!UnityEditor.Connect::EditorGameServicesAnalytics..cctor(): 1ms
+			ProcessInitializeOnLoadMethodAttributes: 24ms
+				InitializeOnLoad ScopedRegistryAddedPopup.SubscribeToRegistriesAdded: 15ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.PackageManager.UI.Internal.ScopedRegistryAddedPopup::SubscribeToRegistriesAdded): 15ms
+						Loading.LoadFileCompletely: 1ms
+							IntegrateAllThreadedObjects: 1ms
+								Loading.AwakeFromLoad: 1ms
+				InitializeOnLoad DiagnosticSwitchesConsoleMessage.Init: 3ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.DiagnosticSwitchesConsoleMessage::Init): 3ms
+				InitializeOnLoad SceneVisibilityManager.Initialize: 2ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.SceneVisibilityManager::Initialize): 2ms
+				InitializeOnLoad AssetPostprocessingInternal.RefreshCustomDependencies: 2ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.AssetPostprocessingInternal::RefreshCustomDependencies): 2ms
+				InitializeOnLoad SceneTemplateService.Init: 1ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.SceneTemplate.SceneTemplateService::Init): 1ms
+				InitializeOnLoad EditorEventCallbacks.InitializeFontAssetResourceChangeCallBacks: 1ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.TextCore.Text.EditorEventCallbacks::InitializeFontAssetResourceChangeCallBacks): 1ms
+				InitializeOnLoad PackageManagerHookGUIDConverter.RegisterPackagesEventHandler: 1ms
+			SetLoadedEditorAssemblies: 3ms
+				SortAssembliesTopologically: 2ms
+			BeforeProcessingInitializeOnLoad: 1ms
+				beforeProcessingInitializeOnLoad.Invoke: 1ms
+		MonoScript.Renew: 22ms in 382 occurrences
+			MonoScript.PopulateMethods: 6ms in 304 occurrences
+			GC.Collect: 1ms in 17 occurrences
+			Scripting.GetDefaultExecutionOrder: 1ms in 304 occurrences
+		didReloadMonoDomain.Invoke: 6ms
+	LoadAllAssembliesAndSetupDomain: 98ms
+		AnalyzeDomain: 96ms
+			TypeCache.Refresh: 95ms
+				TypeCache.ScanAssembly(UnityEditor.CoreModule): 35ms
+				TypeCache.ScanAssembly(UnityEditor.QuickSearchModule): 9ms
+				TypeCache.ScanAssembly(UnityEngine.UIElementsModule): 8ms
+				TypeCache.ScanAssembly(UnityEditor.Android.Extensions): 4ms
+				TypeCache.ScanAssembly(UnityEngine.CoreModule): 4ms
+				TypeCache.ScanAssembly(UnityEditor.iOS.Extensions): 4ms
+				TypeCache.ScanAssembly(UnityEditor.UIElementsModule): 3ms
+				TypeCache.ScanAssembly(UnityEditor.UIBuilderModule): 3ms
+				TypeCache.DiscoverKnownAssemblyContentHashes: 3ms
+				TypeCache.ScanAssembly(UnityEngine.PropertiesModule): 2ms
+				TypeCache.ScanAssembly(UnityEditor.Graphs): 1ms
+				TypeCache.ScanAssembly(UnityEditor.WebGL.Extensions): 1ms
+				TypeCache.ScanAssembly(UnityEditor.GraphViewModule): 1ms
+				TypeCache.ScanAssembly(UnityEditor.UnityConnectModule): 1ms
+				TypeCache.ScanAssembly(UnityEditor.SceneTemplateModule): 1ms
+				TypeCache.ScanAssembly(UnityEditor.DeviceSimulatorModule): 1ms
+				TypeCache.ScanAssembly(UnityEngine.TextCoreTextEngineModule): 1ms
+		LoadAssemblies: 1ms
+			LoadAssembly(UnityEditor.Graphs.dll): 1ms
+	BeginReloadAssembly: 76ms
+		LoadAssemblies: 75ms
+			mscorlib.dll!System::Console..cctor(): 22ms
+				mscorlib.dll!System.IO::PathInternal..cctor(): 12ms
+					mscorlib.dll!System.IO::Stream..cctor(): 3ms
+						mscorlib.dll!::NullStream..cctor(): 3ms
+							mscorlib.dll!System.Threading.Tasks::Task..cctor(): 2ms
+				mscorlib.dll!System.IO::Path..cctor(): 1ms
+			LoadAssembly(UnityEditor.CoreModule.dll): 11ms
+				File.Open(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll): 3ms
+				File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll, 0, 9782272): 2ms
+			LoadAssembly(UnityEditor.UIBuilderModule.dll): 3ms
+				File.Open(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll): 2ms
+				File.Open(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.pdb): 1ms
+			LoadAssembly(UnityEditor.QuickSearchModule.dll): 2ms
+				File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll, 0, 1541120): 1ms
+				File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.pdb, 0, 622576): 1ms
+			mscorlib.dll!System.IO::TextWriter..cctor(): 2ms
+				mscorlib.dll!System.Globalization::CultureInfo..cctor(): 1ms
+			LoadAssembly(UnityEngine.UIElementsModule.dll): 2ms
+				File.Open(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll): 1ms
+			LoadAssembly(UnityEditor.UIElementsSamplesModule.dll): 2ms
+				File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.pdb, 0, 24988): 1ms
+			LoadAssembly(UnityEngine.CoreModule.dll): 2ms
+				File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll, 0, 1528832): 1ms
+			LoadAssembly(UnityEditor.TextCoreTextEngineModule.dll): 1ms
+				File.Open(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll): 1ms
+			LoadAssembly(UnityEngine.UnityWebRequestTextureModule.dll): 1ms
+				File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.pdb, 0, 10180): 1ms
+			LoadAssembly(UnityEngine.UnityWebRequestAssetBundleModule.dll): 1ms
+			LoadAssembly(UnityEditor.UIElementsModule.dll): 1ms
+			LoadAssembly(UnityEditor.TextCoreFontEngineModule.dll): 1ms
+			LoadAssembly(UnityEditor.UnityConnectModule.dll): 1ms
+			LoadAssembly(UnityEditor.SceneTemplateModule.dll): 1ms
+			LoadAssembly(UnityEngine.TextCoreTextEngineModule.dll): 1ms
+			LoadAssembly(UnityEngine.AnimationModule.dll): 1ms
+			LoadAssembly(UnityEngine.dll): 1ms
+			LoadAssembly(UnityEngine.PropertiesModule.dll): 1ms
+	initialDomainReloadingComplete: 32ms
+		initialDomainReloadingComplete.Invoke: 32ms
+			PrecompiledAssemblies.Filter: 13ms
+				UnityEditor.CoreModule.dll!UnityEditor.Scripting.ScriptCompilation::MonoLibraryHelpers..cctor(): 1ms
+			UnityEditor.CoreModule.dll!UnityEditor.Scripting.ScriptCompilation::EditorCompilation..cctor(): 3ms
+			File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll, 0, 2): 1ms in 36 occurrences
+			File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll, 0, 4): 1ms in 126 occurrences
+	RebuildCommonClasses: 22ms
+		ManagedObjectProxy.Init: 21ms
+	RebuildNativeTypeToScriptingClass: 8ms
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.195 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Diagnostic switches are active and may impact performance or degrade your user experience. Switches can be configured through the Diagnostics section in the Preferences window.
+	EnableDomainReloadTimings: True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.233 seconds
+Domain Reload Profiling: 429ms
+ Thread #8244918336
+	FinalizeReload: 233ms
+		SetupLoadedEditorAssemblies: 146ms
+			ProcessInitializeOnLoadAttributes: 97ms
+				InitializeOnLoad UXMLEditorFactories: 33ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.UIElements.UXMLEditorFactories, UnityEditor.UIElementsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 33ms
+						UnityEditor.UIElementsModule.dll!UnityEditor.UIElements::UXMLEditorFactories..cctor(): 32ms
+							GC.Collect: 1ms in 2 occurrences
+							TypeCache.New.Query: 1ms
+				InitializeOnLoad OnLoadNugetPackageRestorer: 30ms
+					ProcessInitializeOnLoadAttribute(NugetForUnity.OnLoadNugetPackageRestorer, NuGetForUnity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 30ms
+						NuGetForUnity.dll!NugetForUnity::OnLoadNugetPackageRestorer..cctor(): 30ms
+							mscorlib.dll!System.Globalization::EncodingTable..cctor(): 1ms
+				InitializeOnLoad AssetStoreContext: 12ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.AssetStoreContext, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 12ms
+						UnityEditor.CoreModule.dll!UnityEditor::AssetStoreContext..cctor(): 12ms
+							System.dll!System.Text.RegularExpressions::Regex..cctor(): 1ms
+				InitializeOnLoad CustomIndexers: 7ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.Search.CustomIndexers, UnityEditor.QuickSearchModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 7ms
+						UnityEditor.QuickSearchModule.dll!UnityEditor.Search::CustomIndexers..cctor(): 7ms
+							UnityEditor.QuickSearchModule.dll!UnityEditor.Search::SearchSettings..cctor(): 3ms
+								UnityEditor.QuickSearchModule.dll!UnityEditor.Search::Utils..cctor(): 1ms
+				InitializeOnLoad PurchasingService: 3ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.Connect.PurchasingService, UnityEditor.UnityConnectModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 3ms
+						UnityEditor.UnityConnectModule.dll!UnityEditor.Connect::PurchasingService..cctor(): 3ms
+				InitializeOnLoad RetainedMode: 1ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.RetainedMode, UnityEditor.UIElementsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 1ms
+						UnityEngine.UIElementsModule.dll!UnityEngine.UIElements::UIElementsUtility..cctor(): 1ms
+				InitializeOnLoad MixerEffectDefinitionReloader: 1ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.Audio.MixerEffectDefinitionReloader, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 1ms
+						UnityEditor.CoreModule.dll!UnityEditor.Audio::MixerEffectDefinitionReloader..cctor(): 1ms
+				InitializeOnLoad BuildService: 1ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.Connect.BuildService, UnityEditor.UnityConnectModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 1ms
+						UnityEditor.UnityConnectModule.dll!UnityEditor.Connect::BuildService..cctor(): 1ms
+				InitializeOnLoad NativeFormatImporterUtility: 1ms
+					ProcessInitializeOnLoadAttribute(UnityEditor.NativeFormatImporterUtility, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 1ms
+						UnityEditor.CoreModule.dll!UnityEditor::NativeFormatImporterUtility..cctor(): 1ms
+			InitializePlatformSupportModulesInManaged: 19ms
+				UnityEditor.Android.Extensions.dll!UnityEditor.Android::AndroidBuildWindowExtension..cctor(): 4ms
+					UnityEditor.CoreModule.dll!UnityEditor::EditorGUIUtility..cctor(): 2ms
+			BeforeProcessingInitializeOnLoad: 16ms
+				beforeProcessingInitializeOnLoad.Invoke: 16ms
+					InitializeManagedCompilationPipeline: 15ms
+						SetAllManagedScripts: 4ms
+						UnityEditor.CoreModule.dll!UnityEditor.Scripting.ScriptCompilation::EditorBuildRules..cctor(): 1ms
+			ProcessInitializeOnLoadMethodAttributes: 11ms
+				InitializeOnLoad ScopedRegistryAddedPopup.SubscribeToRegistriesAdded: 4ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.PackageManager.UI.Internal.ScopedRegistryAddedPopup::SubscribeToRegistriesAdded): 4ms
+				InitializeOnLoad AssetPostprocessingInternal.RefreshCustomDependencies: 1ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.AssetPostprocessingInternal::RefreshCustomDependencies): 1ms
+				InitializeOnLoad SceneTemplateService.Init: 1ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.SceneTemplate.SceneTemplateService::Init): 1ms
+				InitializeOnLoad DiagnosticSwitchesConsoleMessage.Init: 1ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.DiagnosticSwitchesConsoleMessage::Init): 1ms
+				InitializeOnLoad UnityMainThreadDispatcher.Initialize: 1ms
+					ProcessInitializeOnLoadMethodAttribute(NugetForUnity.Helper.UnityMainThreadDispatcher::Initialize): 1ms
+				InitializeOnLoad EditorEventCallbacks.InitializeFontAssetResourceChangeCallBacks: 1ms
+					ProcessInitializeOnLoadMethodAttribute(UnityEditor.TextCore.Text.EditorEventCallbacks::InitializeFontAssetResourceChangeCallBacks): 1ms
+			SetLoadedEditorAssemblies: 2ms
+				SortAssembliesTopologically: 1ms
+			AfterProcessingInitializeOnLoad: 1ms
+				afterProcessingInitializeOnLoad.Invoke: 1ms
+		RestoreBackups: 40ms
+			RestoreManagedReferences: 40ms
+				RebuildManagedInstance(<none>): 25ms in 9 occurrences
+					UnityEditor.CoreModule.dll!UnityEditor.SceneManagement::MainStage..cctor(): 6ms
+						mscorlib.dll!Mono.Globalization.Unicode::SimpleCollator..cctor(): 1ms
+						UnityEditor.CoreModule.dll!UnityEditor.Utils::Paths..cctor(): 1ms
+					UnityEditor.CoreModule.dll!UnityEditor.PackageManager.UI.Internal::HttpClientFactory..cctor(): 2ms
+					mscorlib.dll!System.Collections.Generic::List`1..cctor(): 1ms in 9 occurrences
+				RestoringBackedupData(UnityEditor.PackageManager.UI.Internal.ServicesContainer, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 14ms
+		MonoScript.Renew: 23ms in 459 occurrences
+			MonoScript.PopulateMethods: 6ms in 307 occurrences
+			Scripting.GetDefaultExecutionOrder: 1ms in 307 occurrences
+		didReloadMonoDomain.Invoke: 9ms
+			NuGetForUnity.dll!NugetForUnity::NugetAssetPostprocessor..cctor(): 2ms
+		AwakeInstancesAfterBackupRestoration: 3ms
+			AwakeScriptedObjects: 3ms
+				AwakeInstanceAfterBackupRestoration(UnityEditor.DiagnosticSwitchesConsoleMessage, UnityEditor.DiagnosticsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 2ms
+					GC.Collect: 1ms
+				AwakeInstanceAfterBackupRestoration(UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettings, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 1ms
+		AssemblyReloadEvents.afterAssemblyReload: UnityEditor.SceneTemplate.SceneTemplateService.AfterAssemblyReload: 2ms
+		UnityEditor.CoreModule.dll!UnityEditor::EditorGUI..cctor(): 1ms
+	BeginReloadAssembly: 80ms
+		LoadAssemblies: 42ms
+			mscorlib.dll!System::Console..cctor(): 14ms
+				mscorlib.dll!System.IO::PathInternal..cctor(): 7ms
+					mscorlib.dll!System.IO::Stream..cctor(): 2ms
+						mscorlib.dll!::NullStream..cctor(): 2ms
+							mscorlib.dll!System.Threading.Tasks::Task..cctor(): 1ms
+				mscorlib.dll!System.IO::Path..cctor(): 1ms
+			LoadAssembly(UnityEditor.CoreModule.dll): 10ms
+				File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll, 0, 9782272): 2ms
+				File.Open(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll): 1ms
+				File.Read(/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.pdb, 0, 4276784): 1ms
+			LoadAssembly(UnityEditor.QuickSearchModule.dll): 1ms
+			mscorlib.dll!System.IO::TextWriter..cctor(): 1ms
+				mscorlib.dll!System.Globalization::CultureInfo..cctor(): 1ms
+			LoadAssembly(UnityEngine.UIElementsModule.dll): 1ms
+			LoadAssembly(UnityEngine.CoreModule.dll): 1ms
+			LoadAssembly(UnityEngine.TerrainPhysicsModule.dll): 1ms
+			LoadAssembly(UnityEditor.SceneViewModule.dll): 1ms
+			LoadAssembly(UnityEngine.TextCoreFontEngineModule.dll): 1ms
+		CreateAndSetChildDomain: 18ms
+			MonoUnityDomainUnload: 18ms
+		BackupScriptedObjects: 14ms
+			BackupInstance(UnityEditor.PackageManager.UI.Internal.ServicesContainer, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null): 14ms
+		DisableScriptedObjects: 3ms
+		UnityEditor.CoreModule.dll!UnityEditor::EditorGUI..cctor(): 1ms
+	LoadAllAssembliesAndSetupDomain: 74ms
+		LoadAssemblies: 59ms
+			Assembly Validation: 58ms
+				GC.Collect: 2ms in 19 occurrences
+		AnalyzeDomain: 14ms
+			TypeCache.Refresh: 12ms
+				TypeCache.DiscoverKnownAssemblyContentHashes: 3ms
+				TypeCache.ScanAssembly(Unity.Android.Gradle): 2ms
+				TypeCache.ScanAssembly(NuGetForUnity): 1ms
+				TypeCache.ScanAssembly(Unity.Android.GradleProject): 1ms
+	RebuildCommonClasses: 21ms
+		ManagedObjectProxy.Init: 18ms
+	initialDomainReloadingComplete: 13ms
+		initialDomainReloadingComplete.Invoke: 13ms
+			UnityEditor.CoreModule.dll!UnityEditor.Scripting.ScriptCompilation::EditorCompilation..cctor(): 2ms
+			PrecompiledAssemblies.Filter: 1ms
+	RebuildNativeTypeToScriptingClass: 7ms
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6 unused Assets / (44.4 KB). Loaded Objects now: 558.
+Memory consumption went from 65.5 MB to 65.4 MB.
+Total: 1.842625 ms (FindLiveObjects: 0.028959 ms CreateObjectMapping: 0.003875 ms MarkObjects: 1.771750 ms  DeleteObjects: 0.037417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26057.883593 seconds.
+  path: Assets/Packages
+  artifactKey: Guid(c3bdab2bf7a09453991339e666a99133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages using Guid(c3bdab2bf7a09453991339e666a99133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797d1fc8ca6dafe82e6d8bf2f7153963') in 0.001025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
