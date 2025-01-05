@@ -1,7 +1,10 @@
 # UniRx-Sample
-> UniRx samples for study & write cookbook
+> UniRx samples for study & write cookbook  
+> It provides simple samples that you can use to study UniRx and bring it to your project.
 
-It provides simple samples that you can use to study UniRx and bring it to your project.
+> [!NOTE]
+> Converting UniRx examples to R3. Converting and pushing to main as time allows.
+
 
 ## Index
 1. [Timer(text & bar)](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/01.%20Timer)
