@@ -1,12 +1,19 @@
-# UniRx-Sample
-> UniRx samples for study & write cookbook  
-> It provides simple samples that you can use to study UniRx and bring it to your project.
+# 🛹 R3-Unity-Sample
+> R3 (Unity) samples for study & write cookbook  
+> It provides simple samples that you can use to study R3 and bring it to your project.
 
 > [!NOTE]
 > Converting UniRx examples to R3. Converting and pushing to main as time allows.
 
+<br>
 
-## Index
+## 🚀 Getting Started
+```shell
+// Update something
+```
+<br>
+
+## 📖 Index
 1. [Timer(text & bar)](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/01.%20Timer)
 2. [Click Object](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/02.%20ClickObject)
 3. [Drag Object](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/03.%20DragObject)
@@ -14,22 +21,14 @@
 5. [WWW](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/05.%20WWW)
 6. [HP Bar](https://github.com/rlatkdgus500/UniRx-Sample/tree/master/Assets/06.%20HP%20Bar)
 
-## TO DO
+<br>
+
+## ✅ Todo
 - [ ] Wheel
 - [ ] Virtual Joystick
 - [ ] Animation Event
 
+<br>
 
-## License
-
-<img align="right" src="http://opensource.org/trademarks/opensource/OSI-Approved-License-100x137.png">
-
-The class is licensed under the [MIT License](http://opensource.org/licenses/MIT):
-
-Copyright &copy; 2017 [Sang Hyeon Kim](http://www.github.com/rlatkdgus500).
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## 📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
